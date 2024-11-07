@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Photo.create(name: "Winter", width: 260, height: 130)
+Photo.create(name: "Fall", width: 1024, height: 768)
+Photo.create(name: "Summer", width: 200, height: 150)
+Photo.create(name: "Spring", width: 1080, height: 800)
